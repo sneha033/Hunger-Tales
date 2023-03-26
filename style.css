@@ -1,0 +1,44 @@
+/* HEADER */
+.header{
+    margin:20px 50px 20px 50px;
+    display:flex;
+    justify-content: space-between;
+    /* border :1px solid black; */
+}
+
+.logo{
+    width:100px;
+    height:80px;
+}
+
+.navBar {
+    display: flex;
+    padding: 0px 10px 20px ;
+}
+
+.navBar > li{
+    padding: 10px 10px 0px 0px;
+    list-style-type: none;
+}
+
+/* BODY */
+.search{
+    padding: 20px;
+   text-align: center;
+}
+
+.card{
+    margin:10px;
+    width: 250px;
+    /* border:1px solid black; */
+    padding:20px;
+}
+
+.card > img{
+    width:100%;
+}
+
+.resto{
+    display: flex;
+    flex-wrap: wrap;
+}
